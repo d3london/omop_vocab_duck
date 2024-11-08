@@ -10,7 +10,7 @@ These steps are necessary to ensure that new concepts and mappings are compatibl
 
 ![omop_mapping](/.eraser/53RZfIGlWhCVn1ULHqpD___Ye9wifjPOhT3yQd8rlWom1YCXIp2___---figure---AVBfTVxVwmuT30gfcLbmR---figure---XF-P2gJMJCg9wGWJDKZTsQ.png "omop_mapping")
 
-Exported parquet files can be used to perform source to OMOP concept mappings in health data pipelines. In the future, the intention is: (1) to version concept and concept_relationship files in S3, and (2) to build a live, immutable, cloud database that can be called by a mapper tool, and data pipelines across multiple sites.  
+Exported parquet files can be used to perform source to OMOP concept mappings in health data pipelines. The roadmap for future development is: (1) to version concept and concept_relationship files in S3, and (2) to build a live, immutable, cloud database that can be called by a mapper tool, and data pipelines across multiple sites.  
 
 ## Upload OMOP vocabulary
 Only required once for each new vocabulary. Ensure that the vocabularies of choice are downloaded from [﻿athena.ohdsi.org/ ](https://athena.ohdsi.org/)and unzipped into `/vocab`. Note that these files are too large to keep in GitHub. We keep backups of active vocab versions in an AWS S3 bucket.
