@@ -1,0 +1,10 @@
+concept_id,concept_name,domain_id,vocabulary_id,concept_class_id,standard_concept,concept_code,valid_start_date,valid_end_date,invalid_reason
+2100000001,Blood glucose reading before meal,Measurement,CUSTOM,Clinical Finding,S,CUSTOM:BG_PRE,20240101,20991231,
+2100000002,Blood glucose reading after meal,Measurement,CUSTOM,Clinical Finding,S,CUSTOM:BG_POST,20240101,20991231,
+2100000003,Patient reported weight,Measurement,CUSTOM,Clinical Finding,S,CUSTOM:WEIGHT_SR,20240101,20991231,
+2100000004,Remote blood pressure reading,Measurement,CUSTOM,Clinical Finding,S,CUSTOM:BP_REMOTE,20240101,20991231,
+2100000005,Telehealth visit completed,Observation,CUSTOM,Observation,S,CUSTOM:TELE_COMP,20240101,20991231,
+2100000006,Patient portal message sent,Observation,CUSTOM,Observation,S,CUSTOM:MSG_SENT,20240101,20991231,
+2100000007,Home oxygen saturation,Measurement,CUSTOM,Clinical Finding,S,CUSTOM:SPO2_HOME,20240101,20991231,
+2100000008,Daily step count from device,Measurement,CUSTOM,Clinical Finding,S,CUSTOM:STEPS_DEV,20240101,20991231,
+2100000009,Sleep duration reported,Measurement,CUSTOM,Clinical Finding,S,CUSTOM:SLEEP_DUR,20240101,20991231,

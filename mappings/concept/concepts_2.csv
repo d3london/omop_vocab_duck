@@ -1,0 +1,12 @@
+﻿concept_id,concept_name,domain_id,vocabulary_id,concept_class_id,standard_concept,concept_code,valid_start_date,valid_end_date,invalid_reason
+2100000010,Medication reminder sent,Observation,CUSTOM,Observation,S,CUSTOM:MED_REMIND,20240101,20991231,
+2100000011,Smart insulin pen dose recorded,Measurement,CUSTOM,Clinical Finding,S,CUSTOM:INS_DOSE,20240101,20991231,
+2100000012,Continuous glucose monitor reading,Measurement,CUSTOM,Clinical Finding,S,CUSTOM:CGM_READ,20240101,20991231,
+2100000013,Patient reported mood score,Measurement,CUSTOM,Patient Reported Outcome,S,CUSTOM:MOOD_SR,20240101,20991231,
+2100000014,Digital health coaching session,Observation,CUSTOM,Observation,S,CUSTOM:COACH_DIG,20240101,20991231,
+2100000015,Automated appointment reminder,Observation,CUSTOM,Observation,S,CUSTOM:APPT_REM,20240101,20991231,
+2100000016,Remote heart rate measurement,Measurement,CUSTOM,Clinical Finding,S,CUSTOM:HR_REMOTE,20240101,20991231,
+2100000017,Digital symptom assessment completed,Observation,CUSTOM,Observation,S,CUSTOM:SYMP_ASS,20240101,20991231,
+2100000018,Medication adherence score,Measurement,CUSTOM,Clinical Finding,S,CUSTOM:MED_ADH,20240101,20991231,
+2100000019,Virtual visit no-show,Observation,CUSTOM,Observation,S,CUSTOM:VIRT_NOSHOW,20240101,20991231,
+2100000020,Patient reported pain level,Measurement,CUSTOM,Patient Reported Outcome,S,CUSTOM:PAIN_SR,20240101,20991231,
