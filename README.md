@@ -2,9 +2,9 @@
 ## Summary
 This repo contains scripts that perform two functions:
 
-(1) Upload OMOP Athena vocabulary tables (currently for CDM 5.4) to a Motherduck database corresponding to given version, e.g:`md:omop_vocab_20240830` ;
+(1) Use ```create_omop_vocab.sql``` to upload OMOP Athena vocabulary tables (currently for CDM 5.4) to a Motherduck database corresponding to given version, e.g:`md:omop_vocab_20240830` ;
 
-(2) Check integrity of new source concept definitions, and source concept to OMOP standard concept mappings, using the Motherduck database, and export these as parquet files.
+(2) Use ```update_mappings.sql``` to check integrity of new source concept definitions, and source concept to OMOP standard concept mappings, using the Motherduck database, and export these as parquet files.
 
 These steps are necessary to ensure that new concepts and mappings are compatible with vanilla OMOP vocabularies, and ensure that there are no conflicts between mappings that may be performed in different sessions or across different sites.
 
