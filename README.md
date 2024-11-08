@@ -1,8 +1,6 @@
-<p><a target="_blank" href="https://app.eraser.io/workspace/53RZfIGlWhCVn1ULHqpD" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
-
 # OMOP vocab table and mappings
 ## Summary
-This repo contain scripts that perform two functions:
+This repo contains scripts that perform two functions:
 
 (1) Upload OMOP Athena vocabulary tables (currently for CDM 5.4) to a Motherduck database corresponding to given version, e.g:`md:omop_vocab_20240830` ;
 
